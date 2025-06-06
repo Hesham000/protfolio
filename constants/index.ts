@@ -7,84 +7,78 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+// Import icons for skills
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaDocker,
+  FaGitAlt,
+  FaGithub,
+  FaAws,
+  FaPython,
+  FaWordpress,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiMongodb,
+  SiExpress,
+  SiFirebase,
+  SiMysql,
+  SiCplusplus,
+  SiCsharp,
+  SiDotnet,
+  SiFlutter,
+  SiFastapi,
+  SiSupabase,
+  SiShopify,
+  SiReactquery,
+  SiSequelize,
+  SiSocketdotio,
+  SiIbmcloud,
+} from "react-icons/si";
+import { MdManageAccounts } from "react-icons/md";
+import { TbBrandReactNative } from "react-icons/tb";
+
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    icon: FaJs,
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
+    icon: FaReact,
     width: 80,
     height: 80,
   },
   {
     skill_name: "Node.js",
-    image: "node.png",
+    icon: FaNodeJs,
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    icon: SiMongodb,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Git",
+    icon: FaGitAlt,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "AWS",
+    icon: FaAws,
+    width: 80,
+    height: 80,
   },
 ] as const;
 
@@ -109,61 +103,31 @@ export const SOCIALS = [
 export const FRONTEND_SKILL = [
   {
     skill_name: "HTML",
-    image: "html.png",
+    icon: FaHtml5,
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "css.png",
+    icon: FaCss3Alt,
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
+    icon: FaJs,
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "react.png",
+    icon: FaReact,
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Next.js",
+    icon: SiNextdotjs,
     width: 80,
     height: 80,
   },
@@ -172,49 +136,37 @@ export const FRONTEND_SKILL = [
 export const BACKEND_SKILL = [
   {
     skill_name: "Node.js",
-    image: "node.png",
+    icon: FaNodeJs,
     width: 80,
     height: 80,
   },
   {
     skill_name: "Express.js",
-    image: "express.png",
+    icon: SiExpress,
     width: 80,
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "C#",
+    icon: SiCsharp,
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
+    skill_name: ".NET",
+    icon: SiDotnet,
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
+    skill_name: "Python",
+    icon: FaPython,
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
+    skill_name: "FastAPI",
+    icon: SiFastapi,
     width: 80,
     height: 80,
   },
@@ -222,62 +174,132 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
+    skill_name: "MongoDB",
+    icon: SiMongodb,
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    skill_name: "MySQL",
+    icon: SiMysql,
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
+    skill_name: "Firebase",
+    icon: SiFirebase,
+    width: 80,
+    height: 80,
   },
-
   {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "Supabase",
+    icon: SiSupabase,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "AWS",
+    icon: FaAws,
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "Flutter",
+    icon: SiFlutter,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React Native",
+    icon: TbBrandReactNative,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Git",
+    icon: FaGitAlt,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "GitHub",
+    icon: FaGithub,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "WordPress",
+    icon: FaWordpress,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Shopify",
+    icon: SiShopify,
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
-    description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+    title: "E-Commerce Platform with Recommendation Engine",
+    description: "Developed a multi-vendor platform with ML-based product recommendations using matrix factorization. Integrated user ratings, real-time ordering, and secure auth. Improved engagement by 15% with smart recommendations.",
+    technologies: ["Flutter", "Node.js", "Express.js", "Firebase", "Python (ML)"],
+    link: "https://github.com/heshamali13",
+    category: "Full-Stack & ML",
   },
   {
-    title: "Interactive Cards Portfolio",
-    description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+    title: "Todo App with ML",
+    description: "Created cross-platform todo app with sentiment-based task prioritization. Integrated offline access and productivity tracking. Used JWT for secure, personalized user sessions.",
+    technologies: ["React Native", "Node.js", "MongoDB", "Python (NLP)"],
+    link: "https://github.com/heshamali13",
+    category: "Mobile & ML",
   },
   {
-    title: "Space Themed Website",
-    description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+    title: "Natours Tours App",
+    description: "Developed RESTful APIs with filtering, sorting, and payment integration. Implemented secure authentication and geolocation features.",
+    technologies: ["Node.js", "Express.js", "MongoDB"],
+    link: "https://github.com/heshamali13",
+    category: "Backend API",
+  },
+  {
+    title: "Advanced Crypto Trading Bot",
+    description: "Built a real-time bot using WebSockets and technical indicators. Modular strategy engine increased profitable trades by 20%.",
+    technologies: ["Node.js", "MongoDB", "WebSockets", "REST APIs"],
+    link: "https://github.com/heshamali13",
+    category: "Trading & Automation",
+  },
+  {
+    title: "Inventory Management System",
+    description: "Developed secure inventory/order management with JWT & RBAC. Integrated IBM Cloud for scalable backend performance.",
+    technologies: ["Node.js", "Sequelize", "MySQL", "IBM Cloud"],
+    link: "https://github.com/heshamali13",
+    category: "Enterprise System",
+  },
+  {
+    title: "ALEN Wood Work Website",
+    description: "Developed and deployed a responsive portfolio site. Boosted client engagement by 40% post-launch.",
+    technologies: ["WordPress"],
+    link: "https://github.com/heshamali13",
+    category: "WordPress",
+  },
+  {
+    title: "Hustlers Mobile App",
+    description: "Built backend APIs and admin dashboard for a dropshipping app. Enabled secure role-based operations and order management.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "Next.js"],
+    link: "https://github.com/heshamali13",
+    category: "Full-Stack",
+  },
+  {
+    title: "Ecomsolution Website",
+    description: "Created e-commerce consulting website with product catalog. Integrated contact forms, payment, and mobile-friendly design.",
+    technologies: ["WordPress"],
+    link: "https://github.com/heshamali13",
+    category: "E-Commerce",
   },
 ] as const;
 
@@ -357,8 +379,20 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+  {
+    title: "Contact",
+    link: "#contact",
+  },
 ] as const;
 
 export const LINKS = {
   sourceCode: "https://github.com/sanidhyy/space-portfolio",
 };
+
+// Contact information
+export const CONTACT_INFO = {
+  email: "Hesham12ali13@gmail.com",
+  phone: "01154063086",
+  location: "Egypt",
+  availability: "Available for freelance work",
+} as const;

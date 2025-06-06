@@ -1,0 +1,92 @@
+<div style="font-family: system-ui, -apple-system, sans-serif, Arial; max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+  
+  <!-- Header -->
+  <div style="background-color: #667eea; color: white; padding: 25px 20px; text-align: center;">
+    <h2 style="margin: 0; font-size: 22px;">Portfolio Contact Form</h2>
+    <p style="margin: 5px 0 0 0; font-size: 14px; opacity: 0.9;">New message received</p>
+  </div>
+  
+  <!-- Content -->
+  <div style="padding: 25px 20px;">
+    
+    <!-- Greeting -->
+    <div style="font-size: 16px; color: #333; margin-bottom: 20px; line-height: 1.5;">
+      A message by <strong style="color: #667eea;">{{from_name}}</strong> has been received. Kindly respond at your earliest convenience.
+    </div>
+    
+    <!-- Message Container -->
+    <div style="border: 1px dashed #cccccc; padding: 20px; margin: 20px 0; background-color: #f9f9f9;">
+      <table role="presentation" style="width: 100%; border-collapse: collapse;">
+        <tr>
+          <td style="vertical-align: top; width: 60px; padding-right: 15px;">
+            <!-- Avatar -->
+            <div style="
+              width: 45px; 
+              height: 45px; 
+              background-color: #667eea; 
+              border-radius: 50%; 
+              text-align: center; 
+              line-height: 45px;
+              font-size: 20px;
+              color: white;
+            ">
+              👤
+            </div>
+          </td>
+          <td style="vertical-align: top;">
+            <!-- Sender Details -->
+            <div style="margin-bottom: 10px;">
+              <div style="color: #2c3e50; font-size: 18px; font-weight: bold; margin-bottom: 3px;">
+                {{from_name}}
+              </div>
+              <div style="color: #666; font-size: 14px;">
+                {{from_email}}
+              </div>
+            </div>
+            
+            <!-- Subject -->
+            <div style="margin-bottom: 15px;">
+              <strong style="color: #333; font-size: 16px;">Subject:</strong>
+              <span style="color: #555; font-size: 16px; margin-left: 5px;">{{subject}}</span>
+            </div>
+            
+            <!-- Message -->
+            <div style="background-color: white; padding: 15px; border-left: 4px solid #667eea; margin-top: 10px;">
+              <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #333;">
+                {{message}}
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    <!-- Reply Button -->
+    <div style="text-align: center; margin: 25px 0;">
+      <a href="mailto:{{from_email}}" style="
+        display: inline-block;
+        background-color: #667eea;
+        color: white;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+      ">
+        Reply to {{from_name}}
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- Footer -->
+  <div style="background-color: #f5f5f5; padding: 15px 20px; text-align: center; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #666; font-size: 14px;">
+      This email was sent from your portfolio contact form
+    </p>
+    <p style="margin: 5px 0 0 0; color: #999; font-size: 12px;">
+      Portfolio Contact • {{from_email}}
+    </p>
+  </div>
+  
+</div> 

@@ -2,11 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import type { PropsWithChildren } from "react";
 
-import { Footer } from "@/components/main/footer";
-import { Navbar } from "@/components/main/navbar";
-import { StarsCanvas } from "@/components/main/star-background";
 import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
+import { WebVitals } from "./web-vitals";
 
 import "./globals.css";
 
@@ -21,16 +19,22 @@ export const metadata: Metadata = siteConfig;
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
+      <head>
+        {/* Preload critical assets to prevent layout shifts */}
+        <link rel="preload" href="/hero-bg.svg" as="image" />
+        <link rel="preload" href="/logo.png" as="image" />
+        {/* DNS prefetch for external resources */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+      </head>
       <body
         className={cn(
           "bg-[#030014] overflow-y-scroll overflow-x-hidden",
           inter.className
         )}
+        style={{ minHeight: "100vh" }}
       >
-        <StarsCanvas />
-        <Navbar />
+        <WebVitals />
         {children}
-        <Footer />
       </body>
     </html>
   );

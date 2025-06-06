@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "John Doe | Space Portfolio",
+  title: "Hesham Ali | Portfolio",
   description: "Welcome to my full stack Next.js 14 space portfolio.",
   keywords: [
     "reactjs",
@@ -35,7 +35,16 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Hesham Ali",
+    url: "https://github.com/Hesham000",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon2.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: "/logo.png",
+    shortcut: "/favicon.ico",
+  },
+  manifest: "/manifest.json",
 } as const;
