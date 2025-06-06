@@ -479,7 +479,7 @@ export const Navbar = () => {
                     Available for freelance work
                   </p>
                   <p className="text-gray-400 text-xs mt-1">
-                    Let's build something amazing together
+                    Let&apos;s build something amazing together
                   </p>
                 </motion.div>
               </div>

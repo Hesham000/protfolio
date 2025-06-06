@@ -351,7 +351,7 @@ export const About = () => {
           <div className="relative z-10">
             <h3 className="text-2xl font-bold text-white mb-6">My Mission</h3>
             <p className="text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto">
-              I'm dedicated to bridging the gap between innovative ideas and practical solutions. 
+              I&apos;m dedicated to bridging the gap between innovative ideas and practical solutions. 
               My goal is to leverage cutting-edge technologies to create applications that not only 
               meet business requirements but also provide exceptional user experiences. Every project 
               is an opportunity to learn, grow, and make a positive impact.

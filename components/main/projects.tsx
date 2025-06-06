@@ -476,7 +476,7 @@ export const Projects = () => {
             whileTap={shouldReduceMotion ? {} : { scale: 0.95 }}
           >
             <RocketLaunchIcon className="w-5 h-5 mr-2" />
-            <span>Let's Collaborate</span>
+                            <span>Let&apos;s Collaborate</span>
           </motion.a>
         </motion.div>
       </div>

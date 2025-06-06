@@ -116,7 +116,7 @@ export const Contact = () => {
           <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mx-auto mb-8 w-fit">
             <EnvelopeIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
-              Let's Work Together
+              Let&apos;s Work Together
             </h1>
           </div>
           
@@ -125,7 +125,7 @@ export const Contact = () => {
           </h2>
           
           <p className="text-[20px] text-gray-300 max-w-2xl mx-auto">
-            Ready to turn your ideas into reality? Let's discuss your next project and create something amazing together.
+            Ready to turn your ideas into reality? Let&apos;s discuss your next project and create something amazing together.
           </p>
         </motion.div>
 
@@ -256,7 +256,7 @@ export const Contact = () => {
                   )}
                   <span>
                     {submitStatus === 'success'
-                      ? 'Message sent successfully! I\'ll get back to you soon.'
+                      ? 'Message sent successfully! I&apos;ll get back to you soon.'
                       : 'Failed to send message. Please try again or contact me directly.'}
                   </span>
                 </motion.div>

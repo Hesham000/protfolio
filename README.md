@@ -1,192 +1,339 @@
-<a name="readme-top"></a>
+# 🚀 Space Portfolio - Cosmic Coding Experience
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0.0-0055FF?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
+> ✨ **A magical space-themed portfolio showcasing modern web development with enterprise-level performance optimizations**
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
+![Space Portfolio Preview](https://via.placeholder.com/800x400/030014/8B5CF6?text=🚀+Space+Portfolio+Preview)
 
-<!-- Table of Contents -->
-<details>
+## 🌟 **Live Demo**
 
-<summary>
+🔗 **[View Live Portfolio](https://your-portfolio-url.vercel.app)** *(Coming Soon)*
 
-# :notebook_with_decorative_cover: Table of Contents
+## ✨ **Key Features**
 
-</summary>
+### 🎭 **Interactive Experience**
+- 🧙‍♂️ **Magical Coding Wizard Splash Screen** with animated spells and particles
+- 🌌 **3D Star Field Background** with WebGL-powered cosmic animations
+- ⚡ **Smooth Section Transitions** with advanced Framer Motion animations
+- 📱 **Responsive Design** optimized for all devices
+- 🎨 **Cosmic UI Elements** with glassmorphism and gradient effects
 
-- [Folder Structure](#bangbang-folder-structure)
-- [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
-- [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
-- [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
+### 🚀 **Performance Optimized**
+- ⚡ **Zero Layout Shift (CLS < 0.1)** with comprehensive optimization
+- 🔄 **Advanced Lazy Loading** with intersection observers
+- 📦 **Code Splitting** for optimal bundle sizes
+- 🎯 **Priority Loading** for critical assets
+- 📊 **Web Vitals Monitoring** for continuous performance tracking
 
-</details>
+### 💼 **Professional Portfolio**
+- 👨‍💻 **About Section** with experience timeline and achievements
+- 🛠️ **Skills Showcase** with animated technology icons
+- 🎯 **Project Gallery** with interactive cards and live demos
+- 📧 **Contact Form** with EmailJS integration
+- 🔒 **Security Section** with matrix-style animations
 
-## :bangbang: Folder Structure
+### 🎪 **Advanced Animations**
+- 🌊 **Parallax Scrolling** effects
+- ✨ **Particle Systems** with physics simulation
+- 🎭 **Hover Interactions** with micro-animations
+- 🌈 **Gradient Animations** and color transitions
+- 🎬 **Page Transitions** with loading states
 
-Here is the folder structure of this app.
+## 🛠️ **Tech Stack**
+
+### **Frontend Framework**
+- **Next.js 14.2.15** - React framework with App Router
+- **React 18.2.0** - Component-based UI library
+- **TypeScript 5.0.0** - Type-safe JavaScript
+
+### **Styling & Animation**
+- **Tailwind CSS 3.4.0** - Utility-first CSS framework
+- **Framer Motion 11.0.0** - Production-ready motion library
+- **CSS3** - Custom animations and effects
+
+### **3D & Graphics**
+- **Three.js** - 3D graphics library
+- **React Three Fiber** - React renderer for Three.js
+- **HTML5 Canvas** - 2D graphics and particle systems
+
+### **Performance & Optimization**
+- **Web Vitals** - Performance monitoring
+- **Next.js Image Optimization** - Automatic image optimization
+- **Dynamic Imports** - Code splitting and lazy loading
+
+### **Communication**
+- **EmailJS** - Email service integration
+- **React Hook Form** - Form state management
+
+## 🚀 **Quick Start**
+
+### **Prerequisites**
+- Node.js 18+ 
+- npm or yarn
+- Git
+
+### **Installation**
 
 ```bash
-space-portfolio/
-  |- app/
-    |-- favicon.ico
-    |-- globals.css
-    |-- layout.tsx
-    |-- page.tsx
-  |- components/
-    |-- main/
-        |--- encryption.tsx
-        |--- footer.tsx
-        |--- hero.tsx
-        |--- navbar.tsx
-        |--- projects.tsx
-        |--- skills.tsx
-        |--- star-background.tsx
-    |-- sub/
-        |--- hero-content.tsx
-        |--- project-card.tsx
-        |--- skill-data-provider.tsx
-        |--- skill-text.tsx
-  |- config/
-    |-- index.ts
-  |- constants/
-    |-- index.ts
-  |- lib/
-    |-- motion.ts
-    |-- utils.ts
-  |- public/
-    |-- projects/
-    |-- skills/
-    |-- videos/
-    |-- hero-bg.svg
-    |-- lock-main.png
-    |-- lock-top.png
-    |-- logo.png
-  |- .eslintrc.json
-  |- .gitignore
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.ts
-  |- tsconfig.json
+# Clone the repository
+git clone https://github.com/Hesham000/protfolio.git
+
+# Navigate to project directory
+cd protfolio
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
 ```
 
-<br />
+### **Environment Setup**
 
-## :toolbox: Getting Started
+Create a `.env.local` file with your EmailJS credentials:
 
-1. Make sure **Git** and **NodeJS** is installed.
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
-2. Clone this repository to your local computer.
+### **Development**
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+```bash
+# Start development server
+npm run dev
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+# Open http://localhost:3000
+```
 
-## :camera: Screenshots:
+### **Production Build**
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+```bash
+# Build for production
+npm run build
 
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
+# Start production server
+npm start
+```
 
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
+## 📁 **Project Structure**
 
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
+```
+space-portfolio/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # Root layout with metadata
+│   ├── page.tsx           # Home page
+│   └── web-vitals.tsx     # Performance monitoring
+├── components/
+│   ├── main/              # Main sections
+│   │   ├── hero.tsx       # Hero section
+│   │   ├── about.tsx      # About section
+│   │   ├── skills.tsx     # Skills showcase
+│   │   ├── projects.tsx   # Project gallery
+│   │   ├── contact.tsx    # Contact form
+│   │   ├── navbar.tsx     # Navigation bar
+│   │   ├── footer.tsx     # Footer
+│   │   └── splash-screen.tsx # Magical splash screen
+│   ├── sub/               # Sub-components
+│   │   └── hero-content.tsx
+│   ├── ui/                # UI utilities
+│   │   ├── cls-prevention.tsx # Layout shift prevention
+│   │   └── section-skeleton.tsx # Loading skeletons
+│   └── layout/            # Layout components
+│       └── layout-wrapper.tsx
+├── hooks/                 # Custom React hooks
+├── lib/                   # Utility functions
+├── constants/             # Application constants
+├── config/                # Configuration files
+└── public/                # Static assets
+```
 
-## :gear: Tech Stack
+## 🎨 **Customization Guide**
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
+### **Personal Information**
 
-## :wrench: Stats
+Update your personal details in `config/index.ts`:
 
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
+```typescript
+export const siteConfig = {
+  name: "Your Name",
+  title: "Your Title",
+  description: "Your Description",
+  // ... other config
+};
+```
 
-## :raised_hands: Contribute
+### **Projects**
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+Add your projects in `constants/projects.ts`:
 
-## :gem: Acknowledgements
+```typescript
+export const projects = [
+  {
+    title: "Your Project",
+    description: "Project description",
+    image: "/project-image.jpg",
+    technologies: ["React", "Next.js"],
+    liveUrl: "https://your-project.com",
+    githubUrl: "https://github.com/your-repo"
+  }
+];
+```
 
-Useful resources and dependencies that are used in Space Portfolio.
+### **Skills**
 
-- [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.1.1
-- [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^9.93.0
-- [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^8.15.13
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.0
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.17.12
-- [next](https://www.npmjs.com/package/next): 14.0.4
-- [react](https://www.npmjs.com/package/react): ^18
-- [react-dom](https://www.npmjs.com/package/react-dom): ^18
-- [react-icons](https://www.npmjs.com/package/react-icons): ^5.0.1
-- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^9.5.3
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^2.2.0
-- [three](https://www.npmjs.com/package/three): ^0.160.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^20
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.0.1
-- [eslint](https://www.npmjs.com/package/eslint): ^8
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.4
-- [postcss](https://www.npmjs.com/package/postcss): ^8
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
-- [typescript](https://www.npmjs.com/package/typescript): ^5
+Update your skills in `constants/skills.ts`:
 
-## :coffee: Buy Me a Coffee
+```typescript
+export const skills = [
+  {
+    skill_name: "React",
+    icon: ReactIcon,
+    width: 80,
+    height: 80
+  }
+];
+```
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+### **Color Scheme**
 
-## :rocket: Follow Me
+Customize colors in `tailwind.config.js`:
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fspace-portfolio "Tweet")
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#8B5CF6",
+        secondary: "#06B6D4",
+        // ... custom colors
+      }
+    }
+  }
+};
+```
 
-## :books: Learn More
+## 📧 **EmailJS Setup**
 
-To learn more about Next.js, take a look at the following resources:
+1. **Create EmailJS Account**: [https://www.emailjs.com](https://www.emailjs.com)
+2. **Create Email Service**: Choose your email provider (Gmail, Outlook, etc.)
+3. **Create Email Template**: Use variables like `{{from_name}}`, `{{message}}`
+4. **Get Credentials**: Copy Service ID, Template ID, and Public Key
+5. **Update Environment**: Add credentials to `.env.local`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 **Deployment**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### **Vercel (Recommended)**
 
-## :page_with_curl: Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hesham000/protfolio)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Deploy
+vercel
 
-## :star: Give A Star
+# Set environment variables in Vercel dashboard
+```
 
-You can also give this repository a star to show more people and they can use this repository.
+### **Netlify**
 
-## :star2: Star History
+```bash
+# Build command
+npm run build
 
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-</picture>
-</a>
+# Publish directory
+.next
 
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# Environment variables
+# Set in Netlify dashboard
+```
+
+### **Traditional Hosting**
+
+```bash
+# Build static export
+npm run build
+npm run export
+
+# Upload 'out' directory to your hosting provider
+```
+
+## 📊 **Performance Metrics**
+
+### **Web Vitals Targets**
+- **CLS (Cumulative Layout Shift)**: < 0.1 ✅
+- **LCP (Largest Contentful Paint)**: < 2.5s ✅
+- **FID (First Input Delay)**: < 100ms ✅
+
+### **Optimizations Implemented**
+- ✅ Image optimization with Next.js Image
+- ✅ Code splitting with dynamic imports
+- ✅ Resource preloading for critical assets
+- ✅ Layout shift prevention
+- ✅ Intersection observer for lazy loading
+- ✅ Web Vitals monitoring
+
+## 🧪 **Testing Performance**
+
+```bash
+# Run Lighthouse audit
+npm run lighthouse
+
+# Check Web Vitals in browser console
+# (Web Vitals automatically log in development)
+
+# Build and analyze bundle
+npm run build
+npm run analyze
+```
+
+## 🤝 **Contributing**
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 **Acknowledgments**
+
+- **Framer Motion** for incredible animation capabilities
+- **Three.js** for 3D graphics and animations
+- **Tailwind CSS** for rapid UI development
+- **Next.js** for the amazing React framework
+- **EmailJS** for seamless email integration
+
+## 🌟 **Show Your Support**
+
+If you found this project helpful, please consider:
+
+- ⭐ **Starring the repository**
+- 🐛 **Reporting bugs**
+- 💡 **Suggesting new features**
+- 🤝 **Contributing to the codebase**
+
+---
+
+<div align="center">
+
+**🚀 Built with passion by [Your Name](https://github.com/Hesham000)**
+
+*Turning cosmic dreams into digital reality* ✨
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-purple?style=for-the-badge)](https://your-portfolio-url.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Hesham000)
+
+</div> 
