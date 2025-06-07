@@ -305,7 +305,7 @@ export const PROJECTS = [
     title: "SMnerds",
     description: "Developed an SMnerds Digital Marketing Agency website with a modern design and a focus on user experience. The website features a clean layout, easy navigation, and a responsive design that works on all devices.",
     technologies: ["WordPress"],
-    link: "https://ecomsolution.org/",
+    link: "https://mediumorchid-hamster-792819.hostingersite.com/",
     category: "E-Commerce",
   },
 ] as const;
