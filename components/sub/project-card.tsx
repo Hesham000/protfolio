@@ -157,10 +157,10 @@ export const ProjectCard = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link
-        href={link}
-        target="_blank"
-        rel="noreferrer noopener"
+    <Link
+      href={link}
+      target="_blank"
+      rel="noreferrer noopener"
         className="block h-full focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded-2xl"
         aria-label={`View ${title} project`}
       >
@@ -291,7 +291,7 @@ export const ProjectCard = ({
                 </motion.div>
               </motion.div>
             </motion.div>
-          </div>
+      </div>
 
           {/* Corner Accent */}
           <motion.div
@@ -301,7 +301,7 @@ export const ProjectCard = ({
             transition={{ duration: 0.3 }}
           />
         </motion.article>
-      </Link>
+    </Link>
     </motion.div>
   );
 };

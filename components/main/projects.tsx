@@ -374,7 +374,7 @@ export const Projects = () => {
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
             transition={{ delay: 0.2, duration: ANIMATION_DURATION }}
           >
-            My Projects
+        My Projects
           </motion.h1>
           
           <motion.p
@@ -442,16 +442,16 @@ export const Projects = () => {
                   transition={{ duration: ANIMATION_DURATION }}
                 >
                   {filteredProjects.map((project, index) => (
-                    <ProjectCard
+          <ProjectCard
                       key={`${activeFilter}-${project.title}-${index}`}
-                      title={project.title}
-                      description={project.description}
+            title={project.title}
+            description={project.description}
                       technologies={project.technologies}
                       category={project.category}
-                      link={project.link}
+            link={project.link}
                       index={shouldReduceMotion ? 0 : index}
-                    />
-                  ))}
+          />
+        ))}
                 </motion.div>
               )}
             </AnimatePresence>
