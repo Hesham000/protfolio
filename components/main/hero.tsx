@@ -19,8 +19,8 @@ export const Hero = () => {
         }}
       />
 
-      {/* Minimal decorative elements */}
-      <div className="absolute inset-0 pointer-events-none -z-10">
+      {/* Minimal decorative elements - hidden on mobile for cleaner look */}
+      <div className="absolute inset-0 pointer-events-none -z-10 hidden md:block">
         {/* Simple corner decorations */}
         <div className="absolute top-10 left-10 w-20 h-20 border-2 border-purple-500/20 rounded-full opacity-30" />
         <div className="absolute bottom-10 right-10 w-16 h-16 border-2 border-cyan-500/20 rounded-lg opacity-30" />

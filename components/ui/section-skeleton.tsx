@@ -9,31 +9,38 @@ const Skeleton = ({ className = "" }: SkeletonProps) => (
 );
 
 export const HeroSkeleton = () => (
-  <section className="relative flex flex-col h-screen w-full items-center justify-center min-h-[100vh]">
-    <div className="w-full max-w-7xl mx-auto px-4">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center h-full">
-        {/* Left side - text content */}
-        <div className="space-y-6">
-          <div className="space-y-4">
-            <Skeleton className="h-4 w-32" />
-            <Skeleton className="h-16 w-full" />
-            <Skeleton className="h-12 w-4/5" />
-            <Skeleton className="h-6 w-3/4" />
-          </div>
-          
-          {/* CTA buttons skeleton */}
-          <div className="flex gap-4 mt-8">
-            <Skeleton className="h-12 w-36" />
-            <Skeleton className="h-12 w-32" />
-          </div>
+  <section className="relative flex flex-col lg:flex-row items-center justify-center px-4 sm:px-8 lg:px-20 mt-20 sm:mt-32 lg:mt-40 w-full min-h-[calc(100vh-80px)]">
+    {/* Text content - order-2 on mobile, order-1 on desktop */}
+    <div className="h-full w-full flex flex-col gap-5 justify-center order-2 lg:order-1 mb-8 lg:mb-0">
+      <div className="space-y-6">
+        {/* Welcome box skeleton */}
+        <Skeleton className="h-8 w-64" />
+        
+        {/* Main heading skeleton */}
+        <div className="space-y-4">
+          <Skeleton className="h-12 sm:h-16 lg:h-20 w-full" />
+          <Skeleton className="h-8 sm:h-12 lg:h-16 w-4/5" />
         </div>
         
-        {/* Right side - hero image skeleton */}
-        <div className="flex justify-center items-center">
-          <div className="relative w-[650px] h-[650px] max-w-full max-h-full">
-            <Skeleton className="w-full h-full rounded-lg" />
-          </div>
+        {/* Description skeleton */}
+        <div className="space-y-3">
+          <Skeleton className="h-6 w-full" />
+          <Skeleton className="h-6 w-5/6" />
+          <Skeleton className="h-6 w-4/5" />
         </div>
+        
+        {/* CTA buttons skeleton */}
+        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <Skeleton className="h-12 w-full sm:w-36" />
+          <Skeleton className="h-12 w-full sm:w-32" />
+        </div>
+      </div>
+    </div>
+    
+    {/* Hero image skeleton - order-1 on mobile, order-2 on desktop */}
+    <div className="w-full h-full flex justify-center items-center order-1 lg:order-2 mb-8 lg:mb-0">
+      <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[650px] lg:h-[650px] max-w-full max-h-full">
+        <Skeleton className="w-full h-full rounded-lg" />
       </div>
     </div>
   </section>

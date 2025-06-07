@@ -84,8 +84,8 @@ export const HeroContent = () => {
   // Prevent hydration mismatch by not rendering interactive elements until mounted
   if (!isMounted) {
     return (
-      <div className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]">
-        <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-8 lg:px-20 mt-20 sm:mt-32 lg:mt-40 w-full z-[20] min-h-[calc(100vh-80px)]">
+        <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start order-2 lg:order-1">
           <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]">
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
@@ -93,7 +93,7 @@ export const HeroContent = () => {
             </h1>
           </div>
 
-          <div className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto">
+          <div className="flex flex-col gap-6 mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
             <span>
               Building{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -103,7 +103,7 @@ export const HeroContent = () => {
             </span>
           </div>
 
-          <div className="text-lg text-gray-400 my-5 max-w-[650px] space-y-4">
+          <div className="text-base sm:text-lg text-gray-400 my-5 max-w-[650px] space-y-4">
             <p>
               <span className="text-white font-semibold">Full Stack Developer</span> with over{" "}
               <span className="text-purple-400 font-semibold">2+ years of experience</span> in developing 
@@ -114,21 +114,21 @@ export const HeroContent = () => {
             </p>
           </div>
 
-          <div className="flex flex-row gap-4 mt-4">
-                      <button
-            onClick={(e) => {
-              console.log('Button clicked!'); // Debug log
-              handleSectionClick("#contact", e as any);
-            }}
-            className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:scale-105 transition-transform duration-300"
-          >
-            Get In Touch
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
+            <button
+              onClick={(e) => {
+                console.log('Button clicked!'); // Debug log
+                handleSectionClick("#contact", e as any);
+              }}
+              className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:scale-105 transition-transform duration-300 w-full sm:w-auto"
+            >
+              Get In Touch
+            </button>
             <a
               href="/Hesham-Ali-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="py-3 px-6 border border-purple-500/50 text-center text-white cursor-pointer rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+              className="py-3 px-6 border border-purple-500/50 text-center text-white cursor-pointer rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
             >
               <DocumentArrowDownIcon className="w-5 h-5" />
               View My CV
@@ -136,15 +136,18 @@ export const HeroContent = () => {
           </div>
         </div>
 
-        <div className="w-full h-full flex justify-center items-center">
-          <Image
-            src="/hero-bg.svg"
-            alt="work icons"
-            height={650}
-            width={650}
-            draggable={false}
-            className="select-none"
-          />
+        <div className="w-full h-full flex justify-center items-center order-1 lg:order-2 mb-8 lg:mb-0">
+          <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[650px] lg:h-[650px] max-w-full max-h-full">
+            <Image
+              src="/hero-bg.svg"
+              alt="work icons"
+              fill
+              sizes="(max-width: 640px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 500px, 650px"
+              priority={true}
+              draggable={false}
+              className="select-none object-contain"
+            />
+          </div>
         </div>
       </div>
     );
@@ -154,9 +157,9 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-8 lg:px-20 mt-20 sm:mt-32 lg:mt-40 w-full z-[20] min-h-[calc(100vh-80px)]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start order-2 lg:order-1">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
@@ -169,7 +172,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Building{" "}
@@ -182,7 +185,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[650px] space-y-4"
+          className="text-base sm:text-lg text-gray-400 my-5 max-w-[650px] space-y-4"
         >
           {/* Always visible summary */}
           <p>
@@ -273,22 +276,22 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(1)}
-          className="flex flex-row gap-4 mt-4"
+          className="flex flex-col sm:flex-row gap-4 mt-4"
         >
-                      <button
-              onClick={(e) => {
-                console.log('Static Button clicked!'); // Debug log
-                handleSectionClick("#contact", e as any);
-              }}
-              className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:scale-105 transition-transform duration-300"
-            >
-              Get In Touch
-            </button>
+          <button
+            onClick={(e) => {
+              console.log('Static Button clicked!'); // Debug log
+              handleSectionClick("#contact", e as any);
+            }}
+            className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:scale-105 transition-transform duration-300 w-full sm:w-auto"
+          >
+            Get In Touch
+          </button>
           <a
             href="/Hesham-Ali-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="py-3 px-6 border border-purple-500/50 text-center text-white cursor-pointer rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+            className="py-3 px-6 border border-purple-500/50 text-center text-white cursor-pointer rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <DocumentArrowDownIcon className="w-5 h-5" />
             View My CV
@@ -298,14 +301,14 @@ export const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center order-1 lg:order-2 mb-8 lg:mb-0"
       >
-        <div className="relative w-[650px] h-[650px] max-w-full max-h-full">
+        <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[650px] lg:h-[650px] max-w-full max-h-full">
           <Image
             src="/hero-bg.svg"
             alt="work icons"
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 650px"
+            sizes="(max-width: 640px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 500px, 650px"
             priority={true}
             draggable={false}
             className="select-none object-contain"
